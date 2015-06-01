@@ -1,2 +1,2 @@
-# allamericanmetals
-Sale/Purchase order system for allamericanmetals
+# sale_purchase_tracking
+Sale/Purchase order system
