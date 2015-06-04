@@ -1,0 +1,1 @@
+select sum(qty_shipped), t3.name, material_id from tbl_sale_items as t1 left join tbl_sale_order as t2 on t1.sale_id=t2.sale_id left join tbl_company as t3 on t2.comp_id=t3.comp_id where material_id=2 AND created between "2013-08-01" AND "2013-08-30" group by t3.comp_id;
